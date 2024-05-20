@@ -73,4 +73,15 @@ public class Prodotto {
     public double getPrezzoIva(){
         return prezzo + (prezzo * iva);
     }
+
+    @Override
+    public String toString() {
+        return "Prodotto{" +
+                "codice=" + String.format("%06d" ,codice) +
+                ", nome='" + nome + '\'' +
+                ", descrizione='" + descrizione + '\'' +
+                ", prezzo=" + prezzo +
+                ", iva=" + iva +
+                '}';
+    }
 }
