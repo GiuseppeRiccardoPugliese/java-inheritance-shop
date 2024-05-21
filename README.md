@@ -5,6 +5,7 @@ Un prodotto è caratterizzato da:
 - descrizione
 - prezzo
 - iva
+  
 Uso opportuno dei livelli di accesso (public, private), i costruttori, i metodi getter e setter ed eventuali altri metodi di “utilità” per fare in modo che:
 il codice prodotto sia accessibile solo in lettura
 gli altri attributi siano accessibili sia in lettura che in scrittura
